@@ -10,10 +10,10 @@ function App() {
         "cookie": cook2,
       }}
       // "proxy":"https://www.nseindia.com",
-    // const url3 = "https://api.sensibull.com/v1/events?";
+    const url3 = "https://api.sensibull.com/v1/events?";
     // const url2 = 'https://www.nseindia.com/api/option-chain-indices?symbol=NIFTY';
-
-    const url3 = "/v1/events?";
+    // "proxy":"https://api.sensibull.com",
+    // const url3 = "/v1/events?";
     // const url2 = '/api/option-chain-indices?symbol=NIFTY';
     const getData = async () =>{
       const fetchData = await fetch(url3, headers);
