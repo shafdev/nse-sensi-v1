@@ -17,11 +17,11 @@ function App() {
     // const url3 = "https://api.sensibull.com/v1/events?";
     // const url2 = 'https://www.nseindia.com/api/option-chain-indices?symbol=NIFTY';
     // "proxy":"https://api.sensibull.com",
-    // const url3 = "/v1/events?";
-    const url4 = '/api/marketStatus';
+    const url3 = "/v1/events?";
+    // const url4 = '/api/marketStatus';
     // const url2 = '/api/option-chain-indices?symbol=NIFTY';
     const getData = async () =>{
-      const fetchData = await fetch(url4, headers);
+      const fetchData = await fetch(url3, headers);
       const fetchjson = await fetchData.json();
       console.log(fetchjson);
     }
