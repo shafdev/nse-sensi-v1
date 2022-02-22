@@ -9,11 +9,12 @@ function App() {
           'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
         "cookie": cook2,
       }}
+      // "proxy":"https://www.nseindia.com",
     // const url3 = "https://api.sensibull.com/v1/events?";
-    // const url2 = 'https://www.nseindia.com/api/option-chain-indices?symbol=NIFTY';
+    const url2 = 'https://www.nseindia.com/api/option-chain-indices?symbol=NIFTY';
 
     // const url3 = "/v1/events?";
-    const url2 = '/api/option-chain-indices?symbol=NIFTY';
+    // const url2 = '/api/option-chain-indices?symbol=NIFTY';
     const getData = async () =>{
       const fetchData = await fetch(url2, headers);
       const fetchjson = await fetchData.json();
